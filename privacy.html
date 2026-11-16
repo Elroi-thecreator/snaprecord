@@ -3,8 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy — SnapRecord &amp; Screen Recorder Extensions</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2318181b'/><circle cx='16' cy='16' r='10' fill='none' stroke='%23ff385c' stroke-width='2.5'/><circle cx='16' cy='16' r='5' fill='%23ff385c'/></svg>">
+  <title>Privacy Policy — SnapRecord &amp; Recorder Studio Pro</title>
+  <meta name="description" content="100% on-device zero-cloud privacy policy for SnapRecord and Recorder Studio Pro Chrome extensions. Zero data collection, zero tracking, zero external uploads.">
+  <link rel="canonical" href="https://elroi-thecreator.github.io/snaprecord/privacy.html">
+  <link rel="alternate" type="text/plain" href="https://elroi-thecreator.github.io/snaprecord/llms.txt" title="LLMs.txt Context for AI Engines">
+  <link rel="icon" type="image/png" href="icons/icon128.png">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy — SnapRecord & Recorder Studio Pro",
+    "description": "Comprehensive zero-cloud privacy policy ensuring all video, audio, and transcript processing executes 100% locally on the user machine.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "SnapRecord & Recorder Studio Pro"
+    }
+  }
+  </script>
   <style>
     :root {
       --bg: #09090b;
@@ -52,15 +69,10 @@
       color: var(--text);
     }
 
-    .brand-icon {
+    .brand img {
       width: 36px;
       height: 36px;
       border-radius: 8px;
-      background: #18181b;
-      border: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
 
     .brand-name {
@@ -194,16 +206,13 @@
 <body>
   <div class="container">
     <header>
-      <div class="brand">
-        <div class="brand-icon">
-          <svg width="22" height="22" viewBox="0 0 32 32">
-            <circle cx="16" cy="16" r="12" fill="none" stroke="#ff385c" stroke-width="3"/>
-            <circle cx="16" cy="16" r="6" fill="#ff385c"/>
-          </svg>
-        </div>
+      <a href="index.html" class="brand">
+        <img src="icons/icon128.png" alt="SnapRecord Logo">
         <span class="brand-name">SnapRecord</span>
-      </div>
+      </a>
       <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="https://elroi-thecreator.github.io/snaprecord/llms.txt" target="_blank">🤖 llms.txt</a>
         <a href="https://github.com/Elroi-thecreator/snaprecord/issues" target="_blank">Issues &amp; Support</a>
         <a href="https://github.com/Elroi-thecreator/snaprecord" target="_blank">GitHub</a>
       </div>
@@ -211,30 +220,30 @@
 
     <div class="policy-card">
       <h1>Privacy Policy</h1>
-      <div class="updated">Last updated: November 15, 2026 · Compliant with Google Chrome Web Store Developer Policies</div>
+      <div class="updated">Last updated: November 15, 2026 · Compliant with Chrome Web Store Policies</div>
 
       <div class="highlight-box">
-        <strong>🔒 Zero-Cloud Guarantee:</strong> This extension operates 100% locally on your computer. We do not track, collect, store, or transmit your recordings, camera feed, audio, keystrokes, or browsing data to any external server.
+        <strong>🔒 Zero-Cloud Guarantee:</strong> SnapRecord operates 100% locally on your computer. We do not track, collect, store, or transmit your recordings, camera feed, audio, keystrokes, or browsing data to any external server.
       </div>
 
       <h2>1. Overview</h2>
       <p>
-        This Privacy Policy describes the privacy guarantees and technical permissions for the <strong>SnapRecord: Simple Screen &amp; Video Recorder</strong> Chrome extension. The extension is engineered with privacy by design, executing all media capture, Web Audio processing, and video container formatting entirely on your local machine.
+        SnapRecord ("we", "our", or "the extension") is a lightweight screen and video recording extension for Google Chrome. This Privacy Policy outlines our strict privacy protections and details how the extension operates solely within the boundaries of your local browser environment.
       </p>
 
       <h2>2. Data Collection &amp; Transmission</h2>
       <p>
-        The extension collects <strong>ZERO personal data</strong>:
+        SnapRecord collects <strong>ZERO personal data</strong>.
       </p>
       <ul>
-        <li><strong>No Cloud Storage:</strong> Audio and video recording chunks are processed strictly in local browser memory and cached temporarily in browser IndexedDB to prevent memory leaks.</li>
-        <li><strong>No Telemetry or Tracking:</strong> There are no analytics libraries, third-party trackers, or tracking pixels bundled inside the extension.</li>
+        <li><strong>No Cloud Storage:</strong> Audio and video recording chunks are processed in real-time in memory and stored temporarily in your local browser IndexedDB to prevent memory leaks.</li>
+        <li><strong>No Analytics or Tracking:</strong> There are no analytics libraries, telemetry trackers, or third-party tracking pixels bundled inside the extension.</li>
         <li><strong>No Third-Party Sharing:</strong> No information is sold, shared, or transferred to third-party data brokers or advertising networks.</li>
       </ul>
 
       <h2>3. Permissions &amp; Technical Usage</h2>
       <p>
-        The extension requests only the permissions strictly required to perform local screen, tab, and microphone recording upon explicit user command:
+        SnapRecord requests only the permissions strictly required to perform local screen, tab, and microphone recording upon explicit user command:
       </p>
       <table>
         <thead>
@@ -246,7 +255,7 @@
         <tbody>
           <tr>
             <td><code>tabCapture</code></td>
-            <td>Captures high-definition audio and video from the currently active browser tab when the user initiates a recording.</td>
+            <td>Captures high-definition audio and video from the currently active browser tab when the user selects the "Current Tab" mode.</td>
           </tr>
           <tr>
             <td><code>activeTab</code></td>
@@ -258,7 +267,7 @@
           </tr>
           <tr>
             <td><code>unlimitedStorage</code></td>
-            <td>Allows temporary local IndexedDB buffering of video chunks during lengthy recording sessions to prevent browser memory exhaustion.</td>
+            <td>Allows temporary local IndexedDB buffering of video chunks during lengthy recording sessions to prevent browser crashes.</td>
           </tr>
           <tr>
             <td><code>downloads</code></td>

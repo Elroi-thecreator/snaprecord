@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="downloadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+  </defs>
+
+  <rect width="1280" height="800" fill="url(#bgGrad)" />
+
+  <g text-anchor="middle" font-family="sans-serif">
+    <text x="640" y="70" font-size="32" font-weight="800" fill="#ffffff">Instant Video Preview &amp; 1-Click Export</text>
+    <text x="640" y="100" font-size="15" fill="#94a3b8">Seekable MP4/WebM with patched headers · Immediate browser download · Zero memory leak</text>
+  </g>
+
+  <!-- Centered Video Completion Card -->
+  <g transform="translate(430, 140)" filter="url(#shadow)">
+    <rect width="420" height="580" rx="14" fill="#121214" stroke="#27272a" stroke-width="1.5" />
+
+    <!-- Completion Header -->
+    <g transform="translate(210, 36)" text-anchor="middle" font-family="sans-serif">
+      <text y="0" font-size="20" font-weight="800" fill="#ffffff">🎉 Recording Ready!</text>
+      <text y="24" font-size="12" font-weight="600" fill="#a1a1aa">01:24 · 14.8 MB · MP4 (1080p 60fps)</text>
+    </g>
+
+    <!-- Embedded Player View -->
+    <g transform="translate(24, 80)">
+      <rect width="372" height="320" rx="10" fill="#000000" stroke="#27272a" />
+      <!-- Big Play Button Overlay -->
+      <circle cx="186" cy="140" r="32" fill="rgba(255, 56, 92, 0.85)" />
+      <polygon points="178,126 200,140 178,154" fill="#ffffff" />
+
+      <!-- Video Timeline & Scrub Bar Mockup -->
+      <g transform="translate(16, 275)">
+        <rect width="340" height="5" rx="2.5" fill="#3f3f46" />
+        <rect width="210" height="5" rx="2.5" fill="#ff385c" />
+        <circle cx="210" cy="2.5" r="6" fill="#ffffff" />
+        <text x="0" y="24" font-family="monospace" font-size="10" fill="#a1a1aa">00:52</text>
+        <text x="340" y="24" font-family="monospace" font-size="10" fill="#a1a1aa" text-anchor="end">01:24</text>
+      </g>
+    </g>
+
+    <!-- Download Video Button -->
+    <g transform="translate(24, 430)">
+      <rect width="372" height="52" rx="10" fill="url(#downloadGrad)" />
+      <text x="186" y="32" font-family="sans-serif" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">⬇️ Download Video (.mp4)</text>
+    </g>
+
+    <!-- Record Another Button -->
+    <g transform="translate(24, 496)">
+      <rect width="372" height="44" rx="10" fill="#27272a" />
+      <text x="186" y="27" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">✨ Record Another Session</text>
+    </g>
+  </g>
+</svg>
