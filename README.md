@@ -22,6 +22,17 @@ This public repository hosts the official documentation, privacy policies, commu
 
 ---
 
+## 🎬 Marketing Shorts & Video Previews (9:16 Vertical)
+
+Watch **SnapRecord** in action with our official 30-second vertical video showcases:
+
+| ⚡ Short 1: The 3-Second Screen Recorder | 💸 Short 2: Stop Paying for Screen Recorders |
+| :---: | :---: |
+| <video src="promo/shorts/snaprecord_shorts_1_three_second_recorder.mp4" width="280" controls playsinline></video><br>[📥 **Download MP4 (30s)**](promo/shorts/snaprecord_shorts_1_three_second_recorder.mp4) | <video src="promo/shorts/snaprecord_shorts_2_anti_subscription.mp4" width="280" controls playsinline></video><br>[📥 **Download MP4 (30s)**](promo/shorts/snaprecord_shorts_2_anti_subscription.mp4) |
+| **No Logins · No Setup · Instant Start**<br>3-mode target · Sleek floating HUD · Instant preview player | **Why Pay $120/yr for Basic Capture?**<br>Unlimited time · Zero watermarks · 100% On-device privacy |
+
+---
+
 ## 🛠️ The Extension Suite
 
 ### 1. SnapRecord — Simple Screen Recorder
